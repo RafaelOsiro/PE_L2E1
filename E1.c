@@ -38,6 +38,7 @@ bool validationString(char *string);
 int functionOptionInput();
 void functionInputString(char string[][50]);
 
+
 int main()
 {
     int option, quantityOfError = 0;
@@ -94,6 +95,7 @@ int main()
                 }
 
             } while (exitValidation == false);
+
 
             system("cls");
             quantityOfError = 0;
@@ -168,7 +170,6 @@ void messageName(char string[][50])
         printf("%s\n", string[i]);
     }
 }
-
 
 //! ERROR MESSAGES OF THE SYSTEM ______________________________________________________________________________
 
